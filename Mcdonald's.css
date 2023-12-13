@@ -1,0 +1,85 @@
+#maincont{
+    border:0px solid black;
+    width:65%;
+    margin:auto;
+    padding-top:1px;
+    padding-bottom:2%;
+    border-radius:20px;
+    box-shadow: rgba(17, 17, 26, 0.1) 0px 8px 24px, rgba(17, 17, 26, 0.1) 0px 16px 56px, rgba(17, 17, 26, 0.1) 0px 24px 80px;
+}
+#name{
+    font-family:Arial, Helvetica, sans-serif;
+    text-align:center;
+    text-decoration:underline;
+    text-shadow: 1px 2px 2px black;
+}
+span{
+    font-weight:initial;
+}
+#container{
+    border:0px solid black;
+    margin:auto;
+    margin-top:4%;
+    width:100%;
+}
+#fooditems{
+    border:0px solid red;
+    width:100%;
+    display:flex;
+    margin:auto;
+    margin-top:2%;
+    justify-content: space-around;
+}
+.food{
+    border:0px solid black;
+    width:22%;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:20px;
+    font-weight: bold;
+    text-align: center;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    border-radius:10px;
+}
+.food:hover{
+    transform: scale(1.1);
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+}
+#orderFood{
+    width:30%;
+    height:40px;
+    margin-left:35%;
+    margin-top:5%;
+    font-size:25px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    border-radius:10px;
+    border:none;
+    background-color:rgb(59, 59, 194);
+    color:white;
+}
+#orderFood:hover{
+    transform:scale(1.1);
+    background-color:rgb(12, 12, 197);
+}
+#status{
+    border:0px solid red;
+    width:65%;
+    margin:auto;
+    text-align:center;
+    font-weight: bold;
+    font-size:20px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+#imageCont{
+    border:0px solid black;
+    width:70%;
+    margin:auto;
+}
+#orderId{
+    border:0px solid red;
+    width:30%;
+    height:25px;
+    margin:auto;
+    margin-top:2%;
+    text-align: center;
+    text-decoration: underline;
+}
